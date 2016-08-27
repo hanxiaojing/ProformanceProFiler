@@ -1,0 +1,26 @@
+==================Performance Profiler Report==============
+
+Profiler Begin Time: Tue Aug 23 12:33:09 2016
+
+NO1. Description:网络传输
+Filename:c:\users\apple\desktop\性能剖析器简洁版\8-14（性能剖析器）\test.cpp, Function:Run, Line:45
+Thread Id:1536, Cost Time:3.00,Call Count:3
+Thread Id:4264, Cost Time:1.00,Call Count:1
+Thread Id:6412, Cost Time:2.00,Call Count:2
+Total CostTime:6.01 Total Call Count:6
+
+NO2. Description:中间逻辑
+Filename:c:\users\apple\desktop\性能剖析器简洁版\8-14（性能剖析器）\test.cpp, Function:Run, Line:49
+Thread Id:1536, Cost Time:1.50,Call Count:3
+Thread Id:4264, Cost Time:0.50,Call Count:1
+Thread Id:6412, Cost Time:1.00,Call Count:2
+Total CostTime:3.00 Total Call Count:6
+
+NO3. Description:数据库
+Filename:c:\users\apple\desktop\性能剖析器简洁版\8-14（性能剖析器）\test.cpp, Function:Run, Line:53
+Thread Id:1536, Cost Time:1.50,Call Count:3
+Thread Id:4264, Cost Time:0.50,Call Count:1
+Thread Id:6412, Cost Time:1.00,Call Count:2
+Total CostTime:3.01 Total Call Count:6
+
+================================end=======================
